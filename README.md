@@ -2,11 +2,22 @@
 
 An AI agent that analyzes GitHub repositories using MCP architecture.
 
+
+## Features:
+* Analyze repositories
+* Search for projects
+* Read file contents
+* Conversation memory
+
 ## Setup
 
-1. **Install dependencies**
+1. **Clone the repository**
    ```bash
-   pip install streamlit langchain langchain-ollama langgraph langchain-mcp-adapters mcp fastmcp requests
+   git clone https://github.com/amvr007/Github-AI-Assistant.git
+
+1. **Install requirements**
+   ```bash
+   pip install -r requirements.txt
 
 1. **Install ollama and pull model**
    ```bash
@@ -23,11 +34,4 @@ An AI agent that analyzes GitHub repositories using MCP architecture.
 ```bash
    python agent.py
    ```
-
-
-## Features:
-* Analyze repositories
-* Search for projects
-* Read file contents
-* Conversation memory
 

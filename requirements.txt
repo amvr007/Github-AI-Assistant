@@ -1,0 +1,22 @@
+# Core dependencies
+streamlit>=1.28.0
+langchain>=0.1.0
+langchain-ollama>=0.1.0
+langgraph>=0.0.40
+langchain-core>=0.1.0
+
+# MCP dependencies
+mcp>=0.1.0
+langchain-mcp-adapters>=0.1.0
+
+# FastMCP for server
+fastmcp>=0.1.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Additional langchain dependencies
+typing-extensions>=4.8.0
+
+# Optional: For better async support
+anyio>=3.7.0
